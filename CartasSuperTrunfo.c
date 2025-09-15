@@ -7,7 +7,7 @@
 int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
 
-  char estado;
+  char estado [10];
   char codigo [10];
   char cidade [20];
   int população;
@@ -40,13 +40,13 @@ int main() {
 
   // Área para exibição dos dados da cidade
 
-  //printf("Estado: %s\n",estado);
-  //printf("Código da carta: %s\n",codigo);
-  //printf("Nome da Cidade: %s \n", cidade);
-  //printf("População: %d \n",população);
-  //printf("Área em km²: %f \n", area);
-  //printf("PIB: %f \n",pib);
-  //printf("Número de pontos turísticos: %d \n",turismo);
+  printf("Estado: %s\n",estado);
+  printf("Código da carta: %s\n",codigo);
+  printf("Nome da Cidade: %s \n", cidade);
+  printf("População: %d \n",população);
+  printf("Área em km²: %f \n", area);
+  printf("PIB: %f \n",pib);
+  printf("Número de pontos turísticos: %d \n",turismo);
 
 
 
